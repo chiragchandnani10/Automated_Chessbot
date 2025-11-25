@@ -110,7 +110,7 @@ class ImagePipeline:
             print("Error: No ArUco markers detected!")
             return None, None
         
-        print(f"Detected {len(ids)} ArUco markers")
+        print(f"Detected {len(ids)} ArUco markers")                   
         
         # Create a copy for drawing grid overlay
         frame_with_grid = frame.copy()
